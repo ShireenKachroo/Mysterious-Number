@@ -1,0 +1,148 @@
+body {
+    background-color: #000000;
+    color: #E0E0E0;
+    font-family: cursive;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Minimum height of 100% viewport height */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
+main {
+    flex: 1; /* Take up remaining space */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header and Paragraph */
+h3 {
+    color: #DDA0DD; /* Light purple for headers */
+}
+
+p {
+    color: #CCCCCC; /* Light grey for paragraph text */
+    text-align: center;
+}
+
+/* Container for Input and Button */
+.div1 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #DA70D6; /* Medium purple for labels */
+}
+
+input[type="text"] {
+    width: 150px;
+    padding: 10px;
+    border: 2px solid #DDA0DD; /* Light purple border */
+    border-radius: 4px;
+    background-color: #1A1A1A; /* Dark grey background */
+    color: #DDA0DD; /* Light purple text */
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #BA55D3; /* Medium violet for buttons */
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF; /* White text */
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #BA55D3; /* Violet glow effect */
+}
+
+button:hover {
+    background-color: #9932CC; /* Darker violet on hover */
+    box-shadow: 0 0 15px #9932CC; /* Brighter glow on hover */
+}
+
+/* Message Box */
+.msg {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black; /* Medium purple border */
+    border-radius: 4px;
+    background-color: black; /* Dark grey background */
+    width: 100%;
+    text-align: center;
+    color: #DA70D6; /* Medium purple text */
+}
+
+/* Table Container for Centering */
+.previous-guesses {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center-aligns the table horizontally */
+}
+
+table {
+    width: auto; /* Allows table to be centered and adapt to content */
+    border-collapse: collapse;
+    background-color: #1A1A1A; /* Dark grey background for table */
+    color: #E0E0E0; /* Light grey text */
+}
+
+th, td {
+    border: 1px solid #DDA0DD; /* Light purple border */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #DDA0DD; /* Light purple background for header */
+    color: #000000; /* Black text for contrast */
+}
+
+td {
+    background-color: #2C2C2C; /* Slightly lighter dark grey for cells */
+}
+
+/* Reset Game Button */
+.reset-game {
+    margin-top: 20px;
+}
+
+.reset-game button {
+    background-color: #BA55D3; /* Medium violet for reset button */
+    color: #FFFFFF; /* White text */
+    box-shadow: 0 0 10px #BA55D3; /* Violet glow effect */
+}
+
+.reset-game button:hover {
+    background-color: #9932CC; /* Darker violet on hover */
+    box-shadow: 0 0 15px #9932CC; /* Brighter glow on hover */
+}
+
+a{
+    color:blue;
+}
+a:visited{
+    color:#DA70D6;
+}
+footer {
+    margin-top: 50px; /* Push footer to the bottom */
+    color: #E0E0E0; /* Light grey text */
+    padding: 30px;
+    width: 100%;
+    background-color: #131212; /* Dark grey background */
+    text-align: center;
+}
+
+
+
+
+
+
+

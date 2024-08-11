@@ -1,0 +1,143 @@
+body {
+    background-color: #000000;
+    color: #E0E0E0;
+    font-family: cursive;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
+main {
+    flex: 1; /* Take up remaining space */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h3 {
+    color: #DDA0DD;
+}
+
+p {
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.div1 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #DA70D6;
+}
+
+input[type="text"] {
+    width: 150px;
+    padding: 10px;
+    border: 2px solid #DDA0DD;
+    border-radius: 4px;
+    background-color: #1A1A1A;
+    color: #DDA0DD;
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #BA55D3;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #BA55D3;
+}
+
+button:hover {
+    background-color: #9932CC;
+    box-shadow: 0 0 15px #9932CC;
+}
+
+.msg {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: #DA70D6;
+}
+
+/* Table Container for Centering */
+.previous-guesses {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    background-color: #1A1A1A;
+    color: #E0E0E0;}
+
+th, td {
+    border: 1px solid #DDA0DD;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #DDA0DD;
+    color: #000000;
+}
+
+td {
+    background-color: #2C2C2C;
+}
+
+.reset-game {
+    margin-top: 20px;
+}
+
+.reset-game button {
+    background-color: #BA55D3;
+    color: #FFFFFF;
+    box-shadow: 0 0 10px #BA55D3;}
+
+.reset-game button:hover {
+    background-color: #9932CC; 
+    box-shadow: 0 0 15px #9932CC;
+}
+
+a{
+    color:blue;
+}
+a:visited{
+    color:#DA70D6;
+}
+footer {
+    margin-top: 50px;
+    color: #E0E0E0;
+    padding: 30px;
+    width: 100%;
+    background-color: #131212;
+    text-align: center;
+}
+
+
+
+
+
+
+

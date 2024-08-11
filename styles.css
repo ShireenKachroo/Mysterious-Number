@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
     color: #E0E0E0;
-    font-family: cursive, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -41,7 +41,7 @@ button {
     color: #FFFFFF;
     cursor: pointer;
     font-size: 50px;
-	font-family:cursive;
+    font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 15px #ce09ff;
 }
 
